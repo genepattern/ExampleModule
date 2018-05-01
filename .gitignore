@@ -101,4 +101,9 @@ ENV/
 .mypy_cache/
 
 jobResults/
+gpunit/jobResults/
 reports/
+gpunit/reports/
+.DS_Store
+ABasicModule_v4.zip
+System.out

@@ -2,7 +2,8 @@ If you haven't looked at this document, read it now:
 
 https://docs.google.com/document/d/1WKi3cK9DICVUG2IKlu8FSD5SUatrpcfXog9x8ahHSoc/edit?ts=5a7c9f23
 
-Summary:
+Summary:  
+
 #Starting a new Python module from scratch:
 git clone https://github.com/genepattern/ABasicModule.git
 

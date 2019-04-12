@@ -119,7 +119,7 @@ git push --set-upstream origin develop
   If you are doing a release (Note: the very first time you go through this, you probably want to do a release of the module to have version 1.x out there):
   - Choose the prod repository
   If you are doping a pre-release:
-  - Copy the zip file from the beta repository to the prod repository **LINK TO THIS REPOSITORY IS MISSING FROM THIS DOC**
+  - Copy the zip file from the beta repository to the prod repository http://software.broadinstitute.org/webservices/gpModuleRepository/uploadForm.jsp
 
   **In general you want to do pre-releases, test using the Jenkins project "Single_Module_Test"**
   - Make sure you remove any versions that you had installed beforehand. Especially those with a different LSID. Check on "Modules & Pipelines" --> "Manage" to see double check your module is not listed twice

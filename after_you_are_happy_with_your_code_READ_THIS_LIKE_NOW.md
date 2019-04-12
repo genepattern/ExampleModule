@@ -2,6 +2,9 @@ If you haven't looked at this document, read it now:
 
 https://docs.google.com/document/d/1WKi3cK9DICVUG2IKlu8FSD5SUatrpcfXog9x8ahHSoc/edit?ts=5a7c9f23
 
+Other relavant doc:
+https://docs.google.com/document/d/1QwpCHFFVAqmPovs515WJujeZuN_91nciK7q-ZDKq6mI/edit
+
 Summary:  
 
 #Starting a new Python module from scratch:
@@ -102,7 +105,7 @@ git checkout -b develop
 git commit -am "created a new branch"
 git push --set-upstream origin develop
 
-  14.1 Make sure all of the files in this folder are part of the branch (e.g., git add [add missing files here])
+  14.1 Make sure all of the files in this folder are part of the branch (e.g., git add [add missing files here])  
 15. Release the Module!
   - VPN to the broad
   - Go to Jenkins (http://cancerdev/hudson/)

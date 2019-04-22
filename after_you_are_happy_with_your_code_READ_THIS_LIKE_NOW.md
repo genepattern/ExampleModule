@@ -60,7 +60,7 @@ https://github.com/genepattern/common_module_code/blob/master/module.lsid.regist
 7. All modules require a gpunit/ folder with passing GPunits -- read the README from this repository if you are not familiar with GPunits: https://github.com/broadinstitute/GpUnit
   - Modify the GP units accordingly
   - Test using something like this:
-  `ant -f ${GPUNIT_HOME}/build.xml -Dgpunit.diffStripTrailingCR="--strip-trailing-cr" -Dgp.host="gp-beta-ami.genepattern.org" -Dgp.url="https://gp-beta-ami.genepattern.org" -Dgp.user="edjuaro" -Dgp.password="**PUT_EDJUARO's_PASSWORD_HERE**" -Dgpunit.testfolder=`pwd` gpunit`
+  `gpunit -Dgp.host=beta.genepattern.org -Dgp.url=https://beta.genepattern.org -Dgp.user=edjuaro  -Dgp.password="**PUT_EDJUARO's_PASSWORD_HERE**" gpunit`
   - See https://github.com/genepattern/txt2odf for an example of GpUnits which do more than a simple diff (i.e., a diff with some omissions)
   - Later in this document you will add these gpunits to the nightly tests
 8. Make sure the repository has a license which is compatible with the project, the standard 2018 Mesirov Lab license can be found here: https://github.com/genepattern/txt2odf/blob/master/LICENSE

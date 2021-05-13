@@ -7,7 +7,7 @@ ROOT = os.path.join(WORKING_DIR, '..')
 TASKLIB = os.path.join(ROOT, 'src/')
 INPUT_FILE_DIRECTORIES = os.path.join(ROOT, 'data/')
 
-command_line = "python "+TASKLIB+"ABasicModule.py"\
+command_line = "python "+TASKLIB+"ExampleModule.py"\
                 + " -f " + INPUT_FILE_DIRECTORIES+"data_placeholder.txt"\
                 + " -a True"\
                 + ' -m "This message has been added."'\

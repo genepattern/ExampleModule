@@ -1,16 +1,16 @@
-#ABasicModule
+#ExampleModule
 #Tue May 01 20:52:13 UTC 2018
 JVMLevel=
-LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00374\:1.0
+LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00374\:2.0
 author=Edwin F. Juarez;UCSD - Mesirov Lab
-categories=Administration
-commandLine=<python_3.6> <libdir>ABasicModule.py -f <filename> -a <add_custom_message> -m <message_to_add> -o <output_filename>
+categories=administration
+commandLine=<python_3.6> <libdir>ExampleModule.py -f <filename> -a <add_custom_message> -m <message_to_add> -o <output_filename>
 job.docker.image=genepattern/docker-python36:0.4
 cpuType=any
-description=This is a basic GenePattern module written in Python 3. It can be taken as a "blank canvas" for future modules. It reads a file and potentially adds a
+description=This is an exmaple GenePattern module written in Python 3. It can be used as a template for future modules. It reads a file and potentially adds a line of tesxt
 fileFormat=txt
 language=Python
-name=ABasicModule
+name=ExampleModule
 os=any
 p1_MODE=IN
 p1_TYPE=FILE
@@ -28,7 +28,7 @@ p1_value=
 p2_MODE=
 p2_TYPE=TEXT
 p2_default_value=False
-p2_description=Wether or not to add a custom message
+p2_description=Whether or not to add a custom message
 p2_fileFormat=
 p2_flag=-a
 p2_name=add_custom_message
@@ -67,6 +67,6 @@ p4_value=
 privacy=public
 quality=production
 taskDoc=doc.html
-taskType=Administration
-userid=edjuaro
-version=Initial version
+taskType=administration
+userid=bhill@broadinstitute.org
+version=Renaming as ExampleModule

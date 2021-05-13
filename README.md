@@ -1,2 +1,2 @@
-# ABasicModule
-This is a basic GenePattern module written in Python 3. It can be taken as a "blank canvas" for future modules.
+# ExampleModule
+This is an example GenePattern module written in Python 3. It can be used as a template for future modules.

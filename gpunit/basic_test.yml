@@ -7,8 +7,8 @@
 # Note: this test uses a custom diff command
 #
 
-name: "ABasicModule - Basic test"
-module: ABasicModule
+name: "ExampleModule - Basic test"
+module: ExamplModule
 params:
     filename: "../data/data_placeholder.txt"
     add_custom_message: "True"

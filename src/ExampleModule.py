@@ -1,4 +1,4 @@
-from ABasicModule_functions import *
+from ExampleModule_functions import *
 import argparse
 import humanfriendly
 from timeit import default_timer as timer

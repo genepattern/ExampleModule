@@ -45,6 +45,8 @@ It can be used as a template for future modules. It reads a file and potentially
 1. filename  
     A long form explanation of the parameter. For example: This is the file which will be read in by the python script and to which text will be added, if add_custom_message is set to true. The Parameter expects a plain .txt file with that extension.
 2. add_custom_message 
+    
+3. message_to_add
     An optional set of text to be added to the input file. For example: _This message has been added._
     
 ## Output Files

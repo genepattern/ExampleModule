@@ -56,28 +56,28 @@ It can be used as a template for future modules. It reads a file and potentially
     This is standard output from the Python script. Sometimes helpful for debugging.
 
 ## Example Data
+<!-- provide links to example data so that users can see what input & output should look like and so that they and we can use it to test -->
 
 Input:  
-[GSE162557_RAW.tar](https://github.com/genepattern/AffySTExpressionFileCreator/blob/main/gpunit/input/GSE162557_RAW.tar) - ([full set from GEO - GSE162557](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162557))  
-[Clariom_GSE162557.clm](https://github.com/genepattern/AffySTExpressionFileCreator/blob/main/gpunit/output/GSE162557_Clariom.expression.gct.cls)
+[data_placeholder.txt](https://github.com/genepattern/ExampleModule/blob/v1/data/data_placeholder.txt)
 
 Output:  
-[GSE162557_Clariom.expression.gct](https://github.com/genepattern/AffySTExpressionFileCreator/blob/main/gpunit/output/GSE162557_Clariom.expression.gct)  
-[GSE162557_Clariom.expression.gct.cls](https://github.com/genepattern/AffySTExpressionFileCreator/blob/main/gpunit/output/GSE162557_Clariom.expression.gct.cls)
+[created_file_ground_truth.txt](https://github.com/genepattern/ExampleModule/blob/v1/gpunit/output/basic_test/created_file_ground_truth.txt)
 
 
 ## Requirements
+<!--This section is typically used to list any special requirements for running the module, such as, language/operating system requirements and Docker images. -->
 
-Requires the genepattern/affy-st-expression-file-creator:1 Docker image.
+Requires the [genepattern/docker-python36:0.4](https://hub.docker.com/layers/25223888/genepattern/docker-python36/0.4/images/sha256-c251b34fc4e862535a246f9d74d71a385549b0545f9989d289f160e543b54ca5?context=explore) Docker image.
 
 ## License
 
-`AffySTExpressionFileCreator` is distributed under a modified BSD license available at https://github.com/genepattern/AffySTExpressionFileCreator/blob/v2/LICENSE.txt.
+`ExampleModule` is distributed under a modified BSD license available at https://github.com/genepattern/ExampleModule/blob/v2/LICENSE.
 
 ## Version Comments
+<!--For each version of a module, provide a short comment about what was changed in the new version of a module. Version comments consist of 3 parts: a date, a version number, and a short description. The date should be the release date of that version of the module, and the version number should match the version of the module for which it corresponds to. The description can be short, but should be informative (e.g. "added support for log transformed data", or "fixed bug with out of memory exception"). When a user views the documentation, all version comments up to and including the current version will be displayed, and act as a short version history for the module. -->
 
 | Version | Release Date | Description                                 |
 ----------|--------------|---------------------------------------------|
-|  2  | Apr. 16th, 2021 | Updated to use the genepattern/affy-st-expression-file-creator:1 Docker image. |
-| 1.3 | Jan. 29, 2021 | Updated to accept Clariom arrays and to use the R 4.0.3 jupyter/datascience-notebook:r-4.0.3 Docker image. |
-| 0.14 | Oct. 22, 2015 | Updated to make use of the R package installer. |
+|  2  | May 17, 2021 | Added all required GP-Team Module release requirements and renamed as ExampleModule, from ABasicModule. |
+| 1 | May 1, 2018 | Initial version for team use. |

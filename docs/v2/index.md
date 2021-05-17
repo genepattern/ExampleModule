@@ -6,7 +6,7 @@
 **Description**: This is an example GenePattern module written in Python 3. It can be used as a template for future modules. It reads a file and potentially adds a line of text
 
 <!-- This field is for the author or creator of the module. If the algorithm of the module is from a published paper, this is usually the first or corresponding author from the paper. If the module algorithm is unpublished, this is usually the developer of the module itself. This field can simply be a name of a person or group. -->
-**Authors**: Edwin F. Juarez;UCSD - Mesirov Lab, UCSD; Barbara Hill - Mesirov Lab, Broad Institute
+**Authors**: Edwin F. Juarez; UCSD - Mesirov Lab, UCSD; Barbara Hill - Mesirov Lab, Broad Institute
 
 <!--This field is used for responding to help requests for the module, and should be an email address or a link to a website with contact information or a help forum. -->
 **Contact**: [Forum Link](https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!forum/genepattern-help)
@@ -50,7 +50,7 @@ It can be used as a template for future modules. It reads a file and potentially
 ## Output Files
 <!-- list and describe any files output by the module -->
 
-1. <output_filename>.txt  
+1. \<output_filename\>.txt  
     The input file plus any text you added, if you chose to add text.
 2. stdout.txt
     This is standard output from the Python script. Sometimes helpful for debugging.

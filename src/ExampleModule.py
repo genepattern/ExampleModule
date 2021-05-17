@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from ExampleModule_functions import *
 import argparse
 import humanfriendly

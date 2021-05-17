@@ -30,6 +30,7 @@ It can be used as a template for future modules. It reads a file and potentially
 * [The Dockerfile used to build that image is here.](https://github.com/genepattern/docker-python36/blob/0.5/Dockerfile)
 
 ## Parameters
+<!-- short description of the module parameters and their default values, as well as whether they are required -->
 
 | Name | Description <!--short description--> | Default Value |
 ---------|--------------|----------------
@@ -41,28 +42,18 @@ It can be used as a template for future modules. It reads a file and potentially
 \*  required
 
 ## Input Files
+<!-- longer descriptions of the module input files. Include information about format and/or preprocessing...etc -->
 
 1. filename  
     A long form explanation of the parameter. For example: This is the file which will be read in by the python script and to which text will be added, if add_custom_message is set to true. The Parameter expects a plain .txt file with that extension.
-2. add_custom_message 
-    
-3. message_to_add
-    An optional set of text to be added to the input file. For example: _This message has been added._
     
 ## Output Files
+<!-- list and describe any files output by the module -->
 
-1. <output.file.base>.gct  
-    The expression dataset in [GCT](https://www.genepattern.org/file-formats-guide#GCT) format.
-2. <output.file.base>.cls  
-    A categorical label [CLS](https://www.genepattern.org/file-formats-guide#CLS) file, listing the categories of all the samples in the dataset as determined by the input CLM file.
-3. <output.file.base>.QC.Density_histogram.pdf (or .png or .svg)  
-    A histogram plot of the density estimates for each sample.  This may be useful for QC purposes.
-4. <output.file.base>.QC.Boxplot.pdf (or .png or .svg)  
-    A boxplot of the observed intensities for each sample.  This may be useful for QC purposes.
-5. <output.file.base>.QC.[sample name]_MAplot.pdf (or .png or .svg)  
-    A plot of Average Intensity vs. log ratio (M vs. A, or MA) for each sample versus a reference array.  [This Wikipedia entry](https://en.wikipedia.org/wiki/MA_plot) gives some background on MA plots.
-6. <output.file.base>.QC.[sample name]_Cel_image.pdf (or .png or .svg)  
-    A psuedo-image of the array for each sample, based on the observed intensities.  This may be useful for QC purposes.
+1. <output_filename>.txt  
+    The input file plus any text you added, if you chose to add text.
+2. stdout.txt
+    This is standard output from the Python script. Sometimes helpful for debugging.
 
 ## Example Data
 

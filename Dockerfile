@@ -18,7 +18,7 @@ USER root
 RUN mkdir /ExampleModule \
     && chown gpuser /ExampleModule
 
-#switch to non-root before exiting so that we don't run as root on the server.
+#switch to non-root before exiting so that we don't run as root on the server, and copy all of the src files into the container.
 USER gpuser
 COPY src/*.py /ExampleModule/
 

@@ -45,7 +45,7 @@ It can be used as a template for future modules. It reads a file and potentially
 <!-- longer descriptions of the module input files. Include information about format and/or preprocessing...etc -->
 
 1. filename  
-    A long form explanation of the parameter. For example: This is the file which will be read in by the python script and to which text will be added, if add_custom_message is set to true. The Parameter expects a plain .txt file with that extension.
+    A long form explanation of the parameter. For example: This is the file which will be read in by the python script and to which text will be added, if add_custom_message is set to true. The parameter expects a text file with a .txt extension (e.g. file.txt)
     
 ## Output Files
 <!-- list and describe any files output by the module -->
@@ -62,22 +62,22 @@ Input:
 [data_placeholder.txt](https://github.com/genepattern/ExampleModule/blob/v1.4/data/data_placeholder.txt)
 
 Output:  
-[created_file_ground_truth.txt](https://github.com/genepattern/ExampleModule/blob/v1.44gpunit/output/basic_test/created_file_ground_truth.txt)
+[created_file_ground_truth.txt](https://github.com/genepattern/ExampleModule/blob/v1.4/gpunit/output/basic_test/created_file_ground_truth.txt)
 
 
 ## Requirements
 <!--This section is typically used to list any special requirements for running the module, such as, language/operating system requirements and Docker images. -->
 
-Requires the [genepattern/example-module:2 Docker image](https://hub.docker.com/layers/150060459/genepattern/example-module/2/images/sha256-ae4fffff67672e46b251f954ad226b7ad99403c456c1c19911b6ac82f1a27f2f?context=explore) Docker image.
+Requires the [genepattern/example-module:2 Docker image](https://hub.docker.com/layers/150060459/genepattern/example-module/2/images/sha256-ae4fffff67672e46b251f954ad226b7ad99403c456c1c19911b6ac82f1a27f2f?context=explore).
 
 ## License
 
-`ExampleModule` is distributed under a modified BSD license available at https://github.com/genepattern/ExampleModule/blob/v2/LICENSE.
+`ExampleModule` is distributed under a modified BSD license available at [https://github.com/genepattern/ExampleModule/blob/v1.4/LICENSE.](https://github.com/genepattern/ExampleModule/blob/v1.4/LICENSE)
 
 ## Version Comments
 <!--For each version of a module, provide a short comment about what was changed in the new version of a module. Version comments consist of 3 parts: a date, a version number, and a short description. The date should be the release date of that version of the module, and the version number should match the version of the module for which it corresponds to. The description can be short, but should be informative (e.g. "added support for log transformed data", or "fixed bug with out of memory exception"). When a user views the documentation, all version comments up to and including the current version will be displayed, and act as a short version history for the module. -->
 
 | Version | Release Date | Description                                 |
 ----------|--------------|---------------------------------------------|
-|  1.4  | May 17, 2021 | Added all required GP-Team Module release requirements and renamed as ExampleModule, from ABasicModule. |
+|  1.4  | May 17, 2021 | Added all GenePattern Team module release requirements and renamed as ExampleModule, from ABasicModule. |
 | 1 | May 1, 2018 | Initial version for team use. |

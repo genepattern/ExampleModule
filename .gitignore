@@ -107,3 +107,4 @@ gpunit/reports/
 .DS_Store
 ABasicModule_v4.zip
 System.out
+/.idea/*

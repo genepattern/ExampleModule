@@ -8,10 +8,10 @@ https://docs.google.com/document/d/1QwpCHFFVAqmPovs515WJujeZuN_91nciK7q-ZDKq6mI/
 Summary:  
 
 #Starting a new Python module from scratch:
-git clone https://github.com/genepattern/ABasicModule.git
+git clone https://github.com/genepattern/ExampleModule.git
 
 # Structure of the blank_canvas_module
-*probably to be called "ABasicModule" to be consistent with the docs and to make sure when sorted alphabetically it shows up at or near the top.*
+*probably to be called "ExampleModule" to be consistent with the docs and to make sure when sorted alphabetically it shows up at or near the top.*
 - after_you_are_happy_with_your_code_READ_THIS_LIKE_NOW.txt
 - build.xml
 - data/
@@ -42,7 +42,7 @@ Before you begin: You may have already done some of these steps, that's okay, ke
 3. Look at the list of LSIDs and add a new entry to the List of modules and visualizers:
 https://github.com/genepattern/common_module_code/blob/master/module.lsid.registry
   - txt2odf became: `LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00372\:1.1.0`
-4. Make sure the manifest file is in the top-most directory (e.g., txt2odf/) -- You may need to remove the manifest that was created for ABasicModule
+4. Make sure the manifest file is in the top-most directory (e.g., txt2odf/) -- You may need to remove the manifest that was created for ExampleModule
   - Double check that the quality has been set to production (as opposed to development, since this module is set to be released), i.e., "quality=production"
 5. Open build.xml and modify the second line "name=**INSERT_MODULE_NAME_HERE** (in this case it is txt2odf)
 6. Open doc.html in a text editor and modify line 4, url=**INSERT_DOCUMENTATION_URL_HERE** to know what address to put there, follow these steps:

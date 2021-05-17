@@ -1,4 +1,7 @@
-from ABasicModule_functions import *
+#!/usr/bin/env python3
+
+#NB - all of these import statements should specify their versions and be executed in a separate script at Docker build time.
+from ExampleModule_functions import *
 import argparse
 import humanfriendly
 from timeit import default_timer as timer

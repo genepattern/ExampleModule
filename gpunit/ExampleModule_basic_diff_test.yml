@@ -8,7 +8,7 @@
 #
 
 name: "ExampleModule - Basic test"
-module: ExamplModule
+module: ExampleModule
 params:
     filename: "../data/data_placeholder.txt"
     add_custom_message: "True"

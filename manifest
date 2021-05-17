@@ -9,7 +9,7 @@ commandLine=/ExampleModule/ExampleModule.py -f <filename> -a <add_custom_message
 #commandLine when run with source in module zip/taskLib:
 #commandLine=<python_3.6> <libdir>ExampleModule.py -f <filename> -a <add_custom_message> -m <message_to_add> -o <output_filename>
 job.docker.image=genepattern/example-module:2
-src.repo=https://github.com/genepattern/ExampleModule/tree/v1.3
+src.repo=https://github.com/genepattern/ExampleModule/tree/v1.4
 cpuType=any
 description=This is an example GenePattern module written in Python 3. It can be used as a template for future modules. It reads a file and potentially adds a line of text
 fileFormat=txt

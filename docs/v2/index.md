@@ -25,9 +25,9 @@ It can be used as a template for future modules. It reads a file and potentially
 
 <!-- links to your source repository **specific to the release version**, the Docker image used by the module (as specified in your manifest), and (if applicable) the sha link to the Dockerfile used to build your Docker image -->
 ## Source Links
-* [The GenePattern ExampleModule v2 source repository](https://github.com/genepattern/ExampleModule/tree/v1.3)
+* [The GenePattern ExampleModule v2 source repository](https://github.com/genepattern/ExampleModule/tree/v1.4)
 * ExampleModule v2 uses the [genepattern/example-module:2 Docker image](https://hub.docker.com/layers/150060459/genepattern/example-module/2/images/sha256-ae4fffff67672e46b251f954ad226b7ad99403c456c1c19911b6ac82f1a27f2f?context=explore)
-* [The Dockerfile used to build that image is here.](https://github.com/genepattern/ExampleModule/blob/v1.3/Dockerfile)
+* [The Dockerfile used to build that image is here.](https://github.com/genepattern/ExampleModule/blob/v1.4/Dockerfile)
 
 ## Parameters
 <!-- short description of the module parameters and their default values, as well as whether they are required -->
@@ -59,10 +59,10 @@ It can be used as a template for future modules. It reads a file and potentially
 <!-- provide links to example data so that users can see what input & output should look like and so that they and we can use it to test -->
 
 Input:  
-[data_placeholder.txt](https://github.com/genepattern/ExampleModule/blob/v1.3/data/data_placeholder.txt)
+[data_placeholder.txt](https://github.com/genepattern/ExampleModule/blob/v1.4/data/data_placeholder.txt)
 
 Output:  
-[created_file_ground_truth.txt](https://github.com/genepattern/ExampleModule/blob/v1.3/gpunit/output/basic_test/created_file_ground_truth.txt)
+[created_file_ground_truth.txt](https://github.com/genepattern/ExampleModule/blob/v1.44gpunit/output/basic_test/created_file_ground_truth.txt)
 
 
 ## Requirements
@@ -79,5 +79,5 @@ Requires the [genepattern/example-module:2 Docker image](https://hub.docker.com/
 
 | Version | Release Date | Description                                 |
 ----------|--------------|---------------------------------------------|
-|  1.3  | May 17, 2021 | Added all required GP-Team Module release requirements and renamed as ExampleModule, from ABasicModule. |
+|  1.4  | May 17, 2021 | Added all required GP-Team Module release requirements and renamed as ExampleModule, from ABasicModule. |
 | 1 | May 1, 2018 | Initial version for team use. |

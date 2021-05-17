@@ -50,7 +50,7 @@ It can be used as a template for future modules. It reads a file and potentially
 ## Output Files
 <!-- list and describe any files output by the module -->
 
-1. /<output_filename/>.txt  
+1. <output_filename>.txt  
     The input file plus any text you added, if you chose to add text.
 2. stdout.txt
     This is standard output from the Python script. Sometimes helpful for debugging.

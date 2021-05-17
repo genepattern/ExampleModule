@@ -27,6 +27,7 @@ RUN /ExampleModule/ExampleModule.py
 
 # docker build --rm https://github.com/genepattern/ExampleModule.git#develop -f Dockerfile -t genepattern/example-module:2
 # make sure this repo and tag match the manifest & don't forget to docker push!
+# docker push genepattern/example-module:<tag>
 
 # you can use this command to run Docker and iterate locally (update for your paths and module name, of course)
 # docker run --rm -it --user gpuser -v /c/Users/MyUSER/PathTo/ExampleModule:/mnt/mydata:rw genepattern/example-module:<tag> bash

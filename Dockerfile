@@ -10,8 +10,8 @@ MAINTAINER Barbara Hill <bhill@broadinstitute.org>
 # -----------------------------------
 #creating a non-root user - see above
 RUN useradd -ms /bin/bash gpuser
-USER newuser
-WORKDIR /home/newuser
+USER gpuser
+WORKDIR /home/gpuser
 
 #switch back to root to create dir
 USER root

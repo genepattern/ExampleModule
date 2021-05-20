@@ -10,8 +10,8 @@ MAINTAINER Barbara Hill <bhill@broadinstitute.org>
 # -----------------------------------
 #creating a non-root user - see above
 RUN useradd -ms /bin/bash gpuser
-USER newuser
-WORKDIR /home/newuser
+USER gpuser
+WORKDIR /home/gpuser
 
 #switch back to root to create dir
 USER root
@@ -25,7 +25,7 @@ COPY src/*.py /ExampleModule/
 RUN /ExampleModule/ExampleModule.py
 # -----------------------------------
 
-# docker build --rm https://github.com/genepattern/ExampleModule.git#develop -f Dockerfile -t genepattern/example-module:2
+# docker build --rm https://github.com/genepattern/ExampleModule.git#develop -f Dockerfile -t genepattern/example-module:<tag>
 # make sure this repo and tag match the manifest & don't forget to docker push!
 # docker push genepattern/example-module:<tag>
 

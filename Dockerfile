@@ -25,7 +25,7 @@ COPY src/*.py /ExampleModule/
 RUN /ExampleModule/ExampleModule.py
 # -----------------------------------
 
-# docker build --rm https://github.com/genepattern/ExampleModule.git#develop -f Dockerfile -t genepattern/example-module:2
+# docker build --rm https://github.com/genepattern/ExampleModule.git#develop -f Dockerfile -t genepattern/example-module:<tag>
 # make sure this repo and tag match the manifest & don't forget to docker push!
 # docker push genepattern/example-module:<tag>
 

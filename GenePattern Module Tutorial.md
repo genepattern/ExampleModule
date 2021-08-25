@@ -11,24 +11,8 @@ Without further ado, here are those steps:
 
 ## Steps 📖
 ---
-#### Step 0.1 - If you have not already, create an account through `beta.genepattern.org` 📝
-- When you arrive on the website, select the `Click to Register` option above the sign-in box.
-- Once you have been re-directed to the registration page, enter in your:
-	1. Username
-	2. Password
-	3. Email
-- From here, use your login credentials to sign into `beta.genepattern.org`.
+#### Step 0.1 - If you have not already, [install GenePattern locally](https://www.genepattern.org/administrators-guide#docker) 📝
 
-#### Step 0.2 - Request Access to GenePattern Modules 🔐
-- When you log into `beta.genepattern.org` for the first time, you will want to look at the top-left portion of your screen and locate the `Modules & Pipelines` drop-down menu.
-> ## ⚠️ Important
-> You will likely only have access to 4 Options on this drop-down menu: `New Pipeline`, `Install from Repository`, `Install from ZIP`, and `Manage`. 
->
-> To gain access to the `New Module` development option, please request access by contacting a member of the GenePattern Development Team.
-> 
-> From here, you will be given Module Developer privileges.
-
-- If you have made it this far, you are well on your way to developing your first GenePattern Module.
 
 #### Step 1 - Under `Modules & Pipelines`, select `New Module`  ✅
 - Selecting this option will take you to a new page where you will find a comprehensive module development interface.
@@ -97,7 +81,7 @@ Without further ado, here are those steps:
 #### Final Step - Save and Run the Module 💾👟
 - Now that we have developed our module, it is time to scroll to the top of the screen and choose the `Save & Run` option.
 - We will now want to run our module and see if it works as expected.
-	- First, we want to go to the Home screen of `beta.genepattern.org`
+	- First, we want to go to the Home screen of your GenePattern local installation.
 	- Next, under `Search Modules & Pipelines`, type the name of your module
 	- Once it shows up, select it
 	- You will now test it by doing the following:

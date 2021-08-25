@@ -44,7 +44,7 @@ Without further ado, here are those steps:
 
 #### Step 3 - Include Support Files 📑
 - In the `src` folder of the `ABasicModule` directory, there should be 3 `.py` files and 1 `.txt` file.
-- Add those files to the current module you are working on.
+- Add those files to the current module you are working on (you can drag and drop those files to the form).
 - We are adding these files to the module so that your module can carry out the processes included in your `.py` files.
 
 #### Step 4 - Command Line Specifications ⌨️
